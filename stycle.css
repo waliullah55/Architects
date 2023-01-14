@@ -40,7 +40,7 @@ body {
 
 .header {
     background: rgba(255, 144, 14, 0.1);
-    padding-top: 50px;
+
     display: flex;
     flex-direction: column;
 }
@@ -153,10 +153,12 @@ body {
 .love-image img {
     width: 100%;
 }
-.feature-boxs{
+
+.feature-boxs {
     display: flex;
     flex-direction: column;
 }
+
 .feature-box {
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
@@ -170,7 +172,8 @@ body {
     color: var(--primary-color);
     margin-bottom: 10px;
 }
-.experience{
+
+.experience {
     color: var(--white);
     padding: 45px 42px;
     background-color: var(--orange-color);
@@ -178,11 +181,94 @@ body {
     top: 38%;
     left: 50%;
 }
-.experience h2{
+
+.experience h2 {
     font-weight: 700;
-font-size: 65px;
+    font-size: 65px;
 }
-.experience p{
+
+.experience p {
     font-weight: 500;
-font-size: 25px;
+    font-size: 25px;
+}
+
+
+/* Start About Company  */
+.content-area{
+    width: 600px;
+    margin-bottom: 100px;
+}
+.content-tittle {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--primary-color);
+    margin-bottom: 24px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-item {
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    border: 1px solid var(--orange-color);
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-item .about-image {
+    width: 45px;
+    height: 45px;
+}
+.about-image img{
+    width: 100%;
+}
+.numeric {
+    font-weight: 600;
+    font-size: 45px;
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+
+/* Sponsor Area  */
+.sponsors-content{
+    width: 550px;
+    margin: 20px auto;
+    text-align: center;
+}
+.sponsor-items{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 100px;
+}
+.sponsor-items .item{
+    width: 160px;
+}
+.sponsor-items .item img{
+    width: 100%;
+}
+
+/* Footer Area */
+.footer{
+    background: rgba(255, 144, 14, 0.1);
+    border-radius: 8px;
+    
+}
+.footer p{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--secondary-color);
+    padding: 40px 0;
+    text-align: center;
 }
