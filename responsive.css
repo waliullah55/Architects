@@ -1,0 +1,43 @@
+@media only screen and (max-width: 576px){
+    .container {
+        width: 100%;
+    }
+
+    /* Header start  */
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu ul{
+        flex-direction: column;
+        margin-top: 15px;
+        font-size: 1.7em;
+    }
+    .header-content{
+        width: 100%;
+    }
+
+    /* Main Start & Feature  */
+    .feature-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-area{
+        flex-direction: column;
+    }
+    .feature-content{
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+    .feature-love{
+        flex-direction: column;
+        row-gap: 200px;
+    }
+    .love-content{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .experience{
+        top: 53%;
+        left: 10%;
+    }
+}
