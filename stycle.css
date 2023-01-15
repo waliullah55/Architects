@@ -218,6 +218,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: all .4s ease-in-out;
+}
+.about-item:hover{
+    transform: scale(.6) rotate(45deg);
 }
 
 .about-item .about-image {
