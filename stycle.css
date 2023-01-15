@@ -256,15 +256,57 @@ body {
 }
 .sponsor-items{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 40px 0 100px;
 }
-.sponsor-items .item{
-    width: 160px;
-}
+
 .sponsor-items .item img{
     width: 100%;
 }
+
+
+/* Contact Us section  */
+.contact-tittle {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+.contact-tittle::after{
+    position: absolute;
+    content: " ";
+    background-color: var(--orange-color);
+    width: 200px;
+    height: 5px;
+    top: 60px;
+    left: 41%;
+}
+.contact-container{
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+}
+.form{
+    background-color: rgba(255, 144, 14, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    border-radius: 5px;
+}
+.form input, textarea{
+    color: var(--secondary-color);
+    background-color: rgba(239, 148, 44, 0.1);
+    border: 0;
+    border-radius: 5px;
+    box-shadow:  inset 0 0 10px var(--orange-color);
+    padding: 15px 10px;
+    margin-bottom: 10px;
+}
+.message, input[type="submit"]{
+    color: #1e1c1c94;
+    font-size: 15px;
+}
+
 
 /* Footer Area */
 .footer{

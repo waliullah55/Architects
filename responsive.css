@@ -50,15 +50,31 @@
     }
     .about-items{
        flex-direction: column;
-       row-gap: 50px;
+       row-gap: 30px;
+    }
+    .about-item{
+        width: 100%;
+        text-align: center;
     }
     .about-item:hover{
         transform: translateY(-40px) scale(.8);
-        box-shadow: 5px 5px 5px solid  #FF900E;
+
     }
     .sponsor-items{
         flex-direction: column;
         row-gap: 30px;
+        align-items: center;
     }
 
+/* Contact Us section  */
+    .contact-tittle::after{
+        left: 25%;
+    }
+    .contact-container{
+        flex-direction: column-reverse;
+        row-gap: 20px;
+    }
+    .map iframe{
+        width: 100%;
+    }
 }
