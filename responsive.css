@@ -26,7 +26,7 @@
         flex-direction: column;
     }
     .feature-content{
-        width: 100%;
+        width: 90%;
         margin-left: 25px;
         margin-top: 15px;
     }
@@ -35,19 +35,23 @@
         margin-bottom: 210px;
     }
     .love-content{
-        width: 100%;
+        width: 90%;
         padding-left: 10px;
+    }
+    .love-tittle {
+        width: 100%;
     }
     .experience-btn{
         top: 101%;
         left: 10px;
-        width: 100%;
+        width: 95%;
     }
 
     /* Start About Company  */
     .content-area, .sponsors-content{
         width: 100%;
         text-align: center;
+        overflow: hidden;
     }
     .about-items{
        flex-direction: column;
