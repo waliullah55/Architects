@@ -41,6 +41,10 @@
     .love-tittle {
         width: 100%;
     }
+    .love-image img {
+        width: 95%;
+        padding-left: 10px;
+    }
     .experience-btn{
         top: 101%;
         left: 10px;
