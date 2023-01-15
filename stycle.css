@@ -157,6 +157,7 @@ body {
 .feature-boxs {
     display: flex;
     flex-direction: column;
+    margin-top: 35px;
 }
 
 .feature-box {
@@ -173,8 +174,10 @@ body {
     margin-bottom: 10px;
 }
 
-.experience {
+.experience-btn {
     color: var(--white);
+    border: none;
+    border-radius: 5px;
     padding: 45px 42px;
     background-color: var(--orange-color);
     position: absolute;
@@ -182,12 +185,12 @@ body {
     left: 50%;
 }
 
-.experience h2 {
+.experience-btn h2 {
     font-weight: 700;
     font-size: 65px;
 }
 
-.experience p {
+.experience-btn p {
     font-weight: 500;
     font-size: 25px;
 }
